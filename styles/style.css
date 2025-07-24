@@ -40,4 +40,18 @@ nav ul li a{
 .fa-cart-shopping{
     margin-right: 8px;
 }
+.mobile-cart{
+    display: none;
+}
+
+/* Nav Responsive Style Start */
+@media screen and (max-width:576px) {
+    .nav-right-side-container li{
+        display: none;
+    }
+    .mobile-cart{
+        display: block !important;
+    }
+}
+/* Nav Responsive Style End */
 /* nav styles end */
