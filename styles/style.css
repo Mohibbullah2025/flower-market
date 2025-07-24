@@ -9,6 +9,20 @@
  margin-left: auto;
  margin-right: auto;
 }
+/* google fonts */
+
+.title-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.description-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 /* common styls end */
 
 /* nav styles start */
@@ -55,3 +69,32 @@ nav ul li a{
 }
 /* Nav Responsive Style End */
 /* nav styles end */
+/* banner style start */
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.banner-title{
+    font-size: 3.5rem;
+}
+.fresh-flower{
+    color: #E95A08;
+}
+.banner-details{
+    color: #00000080;
+    opacity: 50%;
+}
+
+/* banner responsive style start */
+@media screen and (max-width: 576px) {
+    .banner-container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        max-width: 100%;
+    }
+}
+/* banner responsive style end */
+/* banner style end */
