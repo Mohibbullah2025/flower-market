@@ -269,6 +269,7 @@ nav ul li a{
     height: auto;
     padding: 0 1rem;
     }
+    
     .deals-img-right{
     grid-column: auto !important;
     grid-row: auto !important;
@@ -280,3 +281,42 @@ nav ul li a{
 }
 
 /* Our Deals Styls End */
+/* Join styls start */
+.join-container{
+    background-image: url("../asserts/news-letter-bg.png");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.join-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+#input{
+    width: 40vw;
+    padding: 1rem 1rem;
+    border: none;
+}
+.btn-subscribe{
+    background-color: #E95A08;
+    border: none;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+}
+@media screen and (max-width:576px) {
+    .join-container{
+        margin: 0 1rem;
+        text-align: center;
+    }
+}
+
+
+
+/* Join styls end */
