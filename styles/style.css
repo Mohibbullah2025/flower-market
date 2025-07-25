@@ -223,7 +223,7 @@ nav ul li a{
    
 }
 .deals{
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -261,4 +261,22 @@ display: flex;
 .shop-now{
     color: #FFFFFF;
 }
+@media screen and (max-width: 576px) {
+    .deals-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    padding: 0 1rem;
+    }
+    .deals-img-right{
+    grid-column: auto !important;
+    grid-row: auto !important;
+}
+    .deals-title-text-right{
+    font-size: 20px;
+   
+}
+}
+
 /* Our Deals Styls End */
