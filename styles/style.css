@@ -115,6 +115,8 @@ nav ul li a{
 }
 .our-plants-title{
     margin-bottom: 2rem;
+    color: #000000;
+    font-weight: 700;
 }
 .our-plant-card-container{
     display: grid;
@@ -339,5 +341,13 @@ nav ul li a{
 }
 .footer-img{
     padding-left: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+        padding-left: 1rem;
+   
+}
 }
 /* Footer styles End */
