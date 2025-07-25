@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 /* common styls start */
 .container-width{
@@ -135,6 +136,18 @@ nav ul li a{
     width: 100%;
     padding: 12px 36px;
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+    .our-plant-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 2rem;
+    column-gap: 1.3rem;
+    padding: 0 16px;
+}
 }
 
 /* our plants styls end */
