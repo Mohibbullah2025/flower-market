@@ -155,14 +155,11 @@ nav ul li a{
 /* plants-lover-section styls start */
 .plants-lover-section-container{
     display: flex;
-    /* justify-content: space-between; */
     margin-top: 12rem;
     gap: 5rem;
     position: relative;
 }
-.plants-lover-img{
-    max-width: 90vh;
-}
+
 .plants-lover-title{
     color: #000000;
     font-size: 3rem;
@@ -182,5 +179,20 @@ nav ul li a{
 .trusted-img{
     width: 45%;
     height: 45%;
+}
+
+@media screen and (max-width:576px) {
+    .plants-lover-section-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    gap: 5rem;
+    padding:0 1rem ;
+    
+}
+.trusted-img{
+    display: none;
+}
+    
 }
 /* plants-lover-section styls End */
