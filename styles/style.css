@@ -151,3 +151,36 @@ nav ul li a{
 }
 
 /* our plants styls end */
+
+/* plants-lover-section styls start */
+.plants-lover-section-container{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 12rem;
+    gap: 5rem;
+    position: relative;
+}
+.plants-lover-img{
+    max-width: 90vh;
+}
+.plants-lover-title{
+    color: #000000;
+    font-size: 3rem;
+}
+.plants-lover-list{
+    margin-top: 2rem;
+    padding-left: 2rem;
+}
+.plants-lover-list-item{
+    margin: 2rem 0;
+}
+.verified-badge{
+    position: absolute;
+    top: -160px;
+    left: 25%;
+}
+.trusted-img{
+    width: 45%;
+    height: 45%;
+}
+/* plants-lover-section styls End */
