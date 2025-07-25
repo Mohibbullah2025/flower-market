@@ -158,12 +158,15 @@ nav ul li a{
     margin-top: 12rem;
     gap: 5rem;
     position: relative;
+    align-items: center;
+    margin-bottom: 7rem;
 }
 
 .plants-lover-title{
     color: #000000;
     font-size: 3rem;
 }
+
 .plants-lover-list{
     margin-top: 2rem;
     padding-left: 2rem;
@@ -174,7 +177,7 @@ nav ul li a{
 .verified-badge{
     position: absolute;
     top: -160px;
-    left: 25%;
+    left: 30%;
 }
 .trusted-img{
     width: 45%;
@@ -195,4 +198,67 @@ nav ul li a{
 }
     
 }
+
 /* plants-lover-section styls End */
+
+/* Our Deals Styls start */
+.deals-title-container{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.deals-title{
+    color: #000000;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.deals-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 400px;
+    gap: 1rem;
+    margin-bottom: 7rem;
+    color: #FFFFFF;
+   
+}
+.deals{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals-img1{
+    background-image: url("../asserts/deal-bloom.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.deals-img2{
+    background-image: url("../asserts/deal-ana.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+   
+}
+.deals-img-right{
+     background-image: url("../asserts/deal-zabo.png");
+    background-size: cover;
+    grid-column: 2;
+    grid-row: 1/ span 2 ;
+    height: 100%;
+    width: 100%;
+}
+.deals-title-text{
+   margin-bottom: 1rem; 
+}
+.deals-title-text-right{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.shop-now{
+    color: #FFFFFF;
+}
+/* Our Deals Styls End */
